@@ -1,0 +1,30 @@
+{
+  "npmScope": "electron-stater",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "angular-app-web-angular-app-e2e": {
+      "tags": []
+    },
+    "angular-app-web-angular-app": {
+      "tags": []
+    },
+    "electron-electron-app": {
+      "tags": []
+    }
+  }
+}
